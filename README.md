@@ -1,4 +1,4 @@
-# Kodicos Crackers - E-Commerce Platform
+# Kodicos Crackers -  
 
 A modern e-commerce platform for boutiques, tailors, and customers built with React and Vite. This platform connects fashion businesses with customers, providing tools for order management, product showcase, and streamlined commerce operations.
 
