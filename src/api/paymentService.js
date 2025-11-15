@@ -1,5 +1,28 @@
 import axios from 'axios';
 
+/**
+ * GUIDDINI EPAY PAYMENT INTEGRATION
+ * 
+ * API Documentation: https://www.guiddini.dz/docs/api/initiate
+ * Login URL: https://epay.guiddini.dz/user/login
+ * 
+ * TEST CREDENTIALS (Development Only):
+ * Email: groupe4@guiddini.com
+ * Password: xv82DFy3mnE6
+ * 
+ * TEST CARD DETAILS (Development/Testing Only):
+ * Card Number: 6280580610061011
+ * CVV2: 992
+ * Expiration Date: 01/2027
+ * Cardholder Name: Davy jones
+ * Card Password: 123456
+ * 
+ * ⚠️ IMPLEMENTATION STATUS: 
+ * - API structure implemented
+ * - Payment flow integration in progress
+ * - Full transaction processing pending
+ */
+
 const PAYMENT_API_BASE_URL = 'https://epay.guiddini.dz/api';
 
 // Configuration - These should be stored in environment variables in production
