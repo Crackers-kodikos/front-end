@@ -1,0 +1,29 @@
+/* My Boutiques page specific styles */
+.boutique-card {
+  transition: box-shadow 0.2s ease;
+}
+
+.boutique-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.boutique-owner-avatar {
+  border: 2px solid #F6F6EE;
+}
+
+.delete-button {
+  transition: all 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #fef2f2;
+  color: #dc2626;
+}
+
+.action-button {
+  transition: all 0.2s ease;
+}
+
+.action-button:hover {
+  transform: translateY(-1px);
+}
